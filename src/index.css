@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #95e1d3 !important;
+  position: relative;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+a {
+  cursor: pointer;
+}
+.navbar {
+  background-color: #95e1d3;
+}
+.dropdown-toggle {
+  background-color: #43a1cd !important;
+}
+
+.btnAdd {
+  background-color: #eaffd0 !important;
+  border: none !important;
+}
+.iconAdd {
+  margin-right: 2px;
+  background-color: #fce38a;
+  font-size: 5px;
+  font-weight: bolder;
+  padding: 5px;
+  border: solid white 1px;
+  border-radius: 20px;
+}
+.itemNote {
+  background-color: #52c5d5;
+}
+/* .iconNote{
+transition: all 0.4s;
+} */
+
+.iconNoteDelete {
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.iconNoteDelete:hover {
+  color: red;
+  transform: rotate(-50deg);
+}
+.iconNote {
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.iconNote:hover {
+  transform: rotate(-50deg);
+  color: #009110;
+}
